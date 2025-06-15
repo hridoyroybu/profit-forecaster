@@ -1,0 +1,81 @@
+.forecast-table-wrapper {
+  margin-top: 2rem;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.06);
+  border: 1px solid #ccc;
+}
+
+.forecast-table-title {
+background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+.forecast-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.forecast-table th,
+.forecast-table td {
+  padding: 0.9rem 1.2rem;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  font-size: 0.95rem;
+}
+
+.forecast-table th {
+  background-color: #f4f6f8;
+  color: #34495e;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.forecast-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+.row-profit {
+  color: #2e7d32;
+  font-weight: 500;
+}
+
+.row-loss {
+  color: #c0392b;
+  font-weight: 500;
+}
+
+.row-profit td:first-child {
+  border-left: 4px solid #2ecc71;
+}
+
+.row-loss td:first-child {
+  border-left: 4px solid #e74c3c;
+}
+
+.table-expand-button-wrapper {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.table-expand-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 8px;
+  font-size: 0.80rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-bottom: 0.5rem;
+}
+
+.table-expand-button:hover {
+  background-color: #5dade2;
+}

@@ -1,0 +1,52 @@
+.forecast-chart-wrapper {
+  margin-top: 2rem;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.06);
+  border: 1px solid #ccc;
+}
+
+.forecast-chart-title {
+background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+  .custom-tooltip {
+    background-color: white;
+    padding: 0.1rem 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    font-size: 0.85rem;
+    color: #333;
+  }
+  
+  .tooltip-label {
+    font-weight: bold;
+    margin-bottom: 0.1rem;
+  }
+  
+  .toggole-button {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  
+    button {
+      grid-column: 6; 
+      padding: 0.25rem 0.35rem;
+      background-color: #185a9d;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+
+    button:hover {
+      background-color: #3fbcb6;
+    }
+  }
